@@ -52,6 +52,11 @@
 
 // Task 4
 
+function mainFunc (secondFunc) {
+ 
+}
+mainFunc(secondFunc)
+
 function secondFunc() {
     let result = []
     let random_number = parseInt(Math.random() * 100)
@@ -62,4 +67,5 @@ function secondFunc() {
     console.log(sum);
 
 }
-secondFunc() 
+secondFunc()
+
